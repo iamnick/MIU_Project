@@ -55,6 +55,22 @@ body {
 	text-shadow: 2px 2px 1px rgba(17, 23, 94, .2);
 }
 
+.menuItem {
+	border-radius: 10px;
+	background: #eeeeee;
+	margin-top: 10px;
+	padding: 5px 10px 5px 10px;
+	text-align: left;
+	text-shadow: 2px 2px 1px rgba(17, 23, 94, .2);
+}
+
+.menuArrow {
+	float: right;
+	font-weight: bold;
+	color: orange;
+	text-shadow: none;
+}
+
 .tripContent {
 	background: #ffffff;
 	border-radius: 15px;
