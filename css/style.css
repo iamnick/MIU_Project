@@ -66,9 +66,17 @@ body {
 
 .menuArrow {
 	float: right;
+}
+
+.menuItem a {
 	font-weight: bold;
 	color: orange;
 	text-shadow: none;
+	text-decoration: none;
+}
+
+#searchInput {
+	width: 100px;
 }
 
 .tripContent {
