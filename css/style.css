@@ -19,8 +19,64 @@ body {
 #indexPageContent {
 	background: #ffffff;
 	border-radius: 15px;
-	padding: 10px 10px 10px 10px;
+	padding: 15px 15px 15px 15px;
 	text-align: center;
+}
+
+#nextTripBG {
+	position: relative;
+	width: 100%;
+}
+
+#nextTripText {
+	text-align: left;
+	position: absolute;
+	top: 180px;
+	left: 115px;
+	text-shadow: 2px 2px 1px rgba(17, 23, 94, .2);
+}
+
+#nextTripLocation {
+	margin-left: 40px;
+	font-size: 24px;
+}
+
+#nextTripDate {
+	margin-left: 60px;
+	font-size: 22px;
+}
+
+#clickToViewMsg {
+	position: absolute;
+	text-align: left;
+	color: #ffffff;
+	top: 280px;
+	left: 85px;
+	text-shadow: 2px 2px 1px rgba(17, 23, 94, .2);
+}
+
+.menuItem {
+	border-radius: 10px;
+	background: #eeeeee;
+	margin-top: 10px;
+	padding: 5px 10px 5px 10px;
+	text-align: left;
+	text-shadow: 2px 2px 1px rgba(17, 23, 94, .2);
+}
+
+.menuArrow {
+	float: right;
+}
+
+.menuItem a {
+	font-weight: bold;
+	color: orange;
+	text-shadow: none;
+	text-decoration: none;
+}
+
+#searchInput {
+	width: 100px;
 }
 
 .tripContent {
