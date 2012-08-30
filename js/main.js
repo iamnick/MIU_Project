@@ -258,9 +258,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
 	var addButton = $('addTrip');
 	addButton.addEventListener("click", validateForm);
-	
 
 	var peopleSlider = $('numPeople');
 	peopleSlider.addEventListener("change", updatePeople);
-
 });
